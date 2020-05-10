@@ -1,19 +1,32 @@
-$('.owl-carousel').owlCarousel({
+$('#owl-1').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    items:1,
+})
+
+$('#owl-1-2').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    items:1,
+})
+
+
+$('#owl-2').owlCarousel({
     loop:true,
     margin:0,
     nav:false,
-    navText : ["<i class='fa fa-chevron-left'>&nbsp;&nbsp;</i>","<i class='fa fa-chevron-right'></i>"],
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
-    },
+    items:3,
+    autoplay:true,
+    autoplayTimeout:4000,
+})
+
+$('#owl-2-2').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:false,
+    items:3,
     autoplay:true,
     autoplayTimeout:4000,
 })
@@ -80,5 +93,41 @@ $(document).ready(function(){
     $("#box_4").hover(function(){
         $(this).animate({bottom:"10px",});
         $(this).animate({top:"0px",});
+    });
+
+
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".nav_background");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > 300);
+      });
+    });
+
+    $(function () {
+      $(document).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+        $("#proj_1").slideDown(1000);
+        }
+      });
+    });
+
+    $(function () {
+      $(document).scroll(function () {
+        if ($(this).scrollTop() > 700) {
+        $("#proj_2").slideDown(1000);
+        }
+      });
+    });
+
+    $("#messageNav").click(function(){
+        $("#message").slideDown(1000);
+    });
+
+    $(function () {
+      $(document).scroll(function () {
+        if ($(this).scrollTop() > 1300) {
+        $("#message").slideDown(1000);
+        }
+      });
     });
 });

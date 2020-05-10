@@ -1,5 +1,5 @@
 :root{
-	--main_background_color: #efefef;
+	--main_background_color: #292727;
 }
 
 body{
@@ -9,14 +9,22 @@ body{
 
 
 header{
-	font-family: FontAwesome;
+	font-family: Oswald;
 	font-size:18px;
 	font-weight: bold;
 }
 
+.nav_background{
+	background-color: none;
+}
+
+.nav_background.scrolled {
+  background-color: #292727 !important;
+  transition: background-color 200ms linear;
+}
 
 h1,h2,h3,h4,h5,h6{
-	color:#453611;
+	color:white;
 	font-weight: bold;
 }
 
@@ -35,9 +43,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 a{
-	color:#453611;
+	color:white;
 }
 
+p{
+	color:white;
+}
 
 
 
@@ -46,23 +57,23 @@ a{
 	.nav_header{
 		font-weight: bold;
 		font-size:22px;
-		font-family: FontAwesome;
+		font-family: Oswald;
 	}
 	.header_main{
 	font-weight: bold;
 	font-size:30px;
-	font-family: FontAwesome;
+	font-family: Oswald;
 	}
 	.header_main_alt{
 	font-weight: bold;
 	font-size:30px;
-	font-family: FontAwesome;
-	color:#453611;
+	font-family: Oswald;
+	color:white;
 	}
 
 	.carousel_font{
 		font-size:15px;
-		color:#453611;
+		color:white;
 	}
 	.display_sm{
 		display: inherit;
@@ -72,58 +83,25 @@ a{
 	}
 	.overlay_text{
 	 position: absolute;
-	 top: 25%;
-	 left: 70%;
+	 top: 27%;
+	 left: 60%;
 	 transform: translate(-50%, -50%);
-	 font-size: 25px;
+	 font-size: 27px;
 	 color:white;
 	 width: 100%;
 	 font-weight: bold;
-	 font-family: FontAwesome;
+	 font-family: Oswald;
 	}
 	.overlay_text_2{
 	 position: absolute;
-	 top: 40%;
-	 left: 70%;
+	 top: 32%;
+	 left: 55%;
 	 transform: translate(-50%, -50%);
-	 font-size: 14px;
+	 font-size: 18px;
 	 color:white;
 	 width: 100%;
 	 font-weight: bold;
-	 font-family: FontAwesome;
-	}
-	.overlay_text_contact_1{
-	 position: absolute;
-	 top: 55%;
-	 left: 63%;
-	 transform: translate(-50%, -50%);
-	 font-size: 18px;
-	 color:white;
-	 width: 3%;
-	 font-weight: bold;
-	 font-family: FontAwesome;
-	}
-	.overlay_text_contact_2{
-	 position: absolute;
-	 top: 55%;
-	 left: 70%;
-	 transform: translate(-50%, -50%);
-	 font-size: 18px;
-	 color:white;
-	 width: 3%;
-	 font-weight: bold;
-	 font-family: FontAwesome;
-	}
-	.overlay_text_contact_3{
-	 position: absolute;
-	 top: 55%;
-	 left: 77%;
-	 transform: translate(-50%, -50%);
-	 font-size: 18px;
-	 color:white;
-	 width: 3%;
-	 font-weight: bold;
-	 font-family: FontAwesome;
+	 font-family: Oswald;
 	}
 	.shadow{
 		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -133,7 +111,7 @@ a{
 		width: 80%;
 		margin-left: 13%;
 		margin-top: 15px;
-		font-family: FontAwesome;
+		font-family: Oswald;
 		padding: 5px;
 		border-radius: 8px;
 		padding-top:19%;
@@ -142,14 +120,29 @@ a{
 		font-size: 18px;
 	}
 
+	.button_projects{
+		background-color: white;
+		font-size:20px;
+		font-weight: bold;
+		font-family: FontAwesome;
+		border-color:white;
+
+	}
+	.address{
+		font-family: FontAwesome;
+		font-size:20px;
+		font-weight: bold;
+		color:white;
+	}
+
 		
 }
 
-@media(min-width:568px){
+@media(min-width:700px){
 	.nav_header{
 		font-weight: bold;
 		font-size:25px;
-		font-family: FontAwesome;
+		font-family: Oswald;
 	}
 	.header_main{
 	font-weight: bold;
@@ -158,66 +151,34 @@ a{
 	.header_main_alt{
 	font-weight: bold;
 	font-size:30px;
-	font-family: FontAwesome;
+	font-family: Oswald;
 	}
 	.carousel_font{
 		font-size:20px;
 	}
 	.overlay_text{
 	 position: absolute;
-	 top: 20%;
-	 left: 70%;
+	 top: 30%;
+	 left: 24%;
 	 transform: translate(-50%, -50%);
 	 font-size: 30px;
 	 color:white
 	 width: 100%;
 	 font-weight: bold;
-	 font-family: FontAwesome;
+	 font-family: Oswald;
 	}
 	.overlay_text_2{
 	 position: absolute;
 	 top: 40%;
-	 left: 70%;
+	 left: 15%;
 	 transform: translate(-50%, -50%);
 	 font-size: 20px;
 	 color:white;
 	 width: 100%;
 	 font-weight: bold;
-	 font-family: FontAwesome;
+	 font-family: Oswald;
 	}
-	.overlay_text_contact_1{
-	 position: absolute;
-	 top: 55%;
-	 left: 65%;
-	 transform: translate(-50%, -50%);
-	 font-size: 20px;
-	 color:white;
-	 width: 3%;
-	 font-weight: bold;
-	 font-family: FontAwesome;
-	}
-	.overlay_text_contact_2{
-	 position: absolute;
-	 top: 55%;
-	 left: 70%;
-	 transform: translate(-50%, -50%);
-	 font-size: 20px;
-	 color:white;
-	 width: 3%;
-	 font-weight: bold;
-	 font-family: FontAwesome;
-	}
-	.overlay_text_contact_3{
-	 position: absolute;
-	 top: 55%;
-	 left: 75%;
-	 transform: translate(-50%, -50%);
-	 font-size: 20px;
-	 color:white;
-	 width: 3%;
-	 font-weight: bold;
-	 font-family: FontAwesome;
-	}
+
 	.shadow{
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -234,13 +195,25 @@ a{
 	.box_text{
 		font-size: 25px;
 	}
+	.display_lg{
+		display: inherit;
+	}
+	.nodisplay_lg{
+		display: none
+	}
+	.address{
+		font-family: FontAwesome;
+		font-size:30px;
+		font-weight: bold;
+		color:white;
+	}
 }
 
-@media(min-width: 850px){
+@media(min-width: 1000px){
 	.nav_header{
 		font-weight: bold;
 		font-size:28px;
-		font-family: FontAwesome;
+		font-family: Oswald;
 		
 	}
 	.header_main{
@@ -250,7 +223,7 @@ a{
 	.header_main_alt{
 	font-weight: bold;
 	font-size:30px;
-	font-family: FontAwesome;
+	font-family: Oswald;
 	}
 	.carousel_font{
 		font-size:25px;
@@ -263,58 +236,25 @@ a{
 	}
 	.overlay_text{
 	 position: absolute;
-	 top: 25%;
-	 left: 70%;
+	 top: 30%;
+	 left: 23%;
 	 transform: translate(-50%, -50%);
 	 font-size: 50px;
 	 color:white;
 	 width: 100%;
 	 font-weight: bold;
-	 font-family: FontAwesome;
+	 font-family: Oswald;
 	}
 	.overlay_text_2{
 	 position: absolute;
-	 top: 38%;
-	 left: 70%;
+	 top: 40%;
+	 left: 19%;
 	 transform: translate(-50%, -50%);
-	 font-size: 25px;
+	 font-size: 50px;
 	 color:white;
 	 width: 100%;
 	 font-weight: bold;
-	 font-family: FontAwesome;
-	}
-	.overlay_text_contact_1{
-	 position: absolute;
-	 top: 50%;
-	 left: 65%;
-	 transform: translate(-50%, -50%);
-	 font-size: 30px;
-	 color:white;
-	 width: 3%;
-	 font-weight: bold;
-	 font-family: FontAwesome;
-	}
-	.overlay_text_contact_2{
-	 position: absolute;
-	 top: 50%;
-	 left: 70%;
-	 transform: translate(-50%, -50%);
-	 font-size: 30px;
-	 color:white;
-	 width: 3%;
-	 font-weight: bold;
-	 font-family: FontAwesome;
-	}
-	.overlay_text_contact_3{
-	 position: absolute;
-	 top: 50%;
-	 left: 75%;
-	 transform: translate(-50%, -50%);
-	 font-size: 30px;
-	 color:white;
-	 width: 3%;
-	 font-weight: bold;
-	 font-family: FontAwesome;
+	 font-family: Oswald;
 	}
 	.shadow{
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -331,5 +271,10 @@ a{
 	.box_text{
 		font-size: 28px;
 	}
-	
+	.address{
+		font-family: FontAwesome;
+		font-size:30px;
+		font-weight: bold;
+		color:white;
+	}
 }
