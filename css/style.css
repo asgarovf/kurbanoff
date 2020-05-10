@@ -1,0 +1,335 @@
+:root{
+	--main_background_color: #efefef;
+}
+
+body{
+	background-color: var(--main_background_color);
+	display:none;
+}
+
+
+header{
+	font-family: FontAwesome;
+	font-size:18px;
+	font-weight: bold;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	color:#453611;
+	font-weight: bold;
+}
+
+.nav-color> li{
+	color:#453611;
+}
+
+.main_image{
+	max-width: 100%;
+}
+
+.overlay{
+	 position: relative;
+	 text-align: center;
+	 color: white;
+}
+
+a{
+	color:#453611;
+}
+
+
+
+
+@media(min-width: 0px){
+	
+	.nav_header{
+		font-weight: bold;
+		font-size:22px;
+		font-family: FontAwesome;
+	}
+	.header_main{
+	font-weight: bold;
+	font-size:30px;
+	font-family: FontAwesome;
+	}
+	.header_main_alt{
+	font-weight: bold;
+	font-size:30px;
+	font-family: FontAwesome;
+	color:#453611;
+	}
+
+	.carousel_font{
+		font-size:15px;
+		color:#453611;
+	}
+	.display_sm{
+		display: inherit;
+	}
+	.nodisplay_sm{
+		display: none
+	}
+	.overlay_text{
+	 position: absolute;
+	 top: 25%;
+	 left: 70%;
+	 transform: translate(-50%, -50%);
+	 font-size: 25px;
+	 color:white;
+	 width: 100%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_2{
+	 position: absolute;
+	 top: 40%;
+	 left: 70%;
+	 transform: translate(-50%, -50%);
+	 font-size: 14px;
+	 color:white;
+	 width: 100%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_contact_1{
+	 position: absolute;
+	 top: 55%;
+	 left: 63%;
+	 transform: translate(-50%, -50%);
+	 font-size: 18px;
+	 color:white;
+	 width: 3%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_contact_2{
+	 position: absolute;
+	 top: 55%;
+	 left: 70%;
+	 transform: translate(-50%, -50%);
+	 font-size: 18px;
+	 color:white;
+	 width: 3%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_contact_3{
+	 position: absolute;
+	 top: 55%;
+	 left: 77%;
+	 transform: translate(-50%, -50%);
+	 font-size: 18px;
+	 color:white;
+	 width: 3%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.shadow{
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+		height: 8rem;
+		width: 80%;
+		margin-left: 13%;
+		margin-top: 15px;
+		font-family: FontAwesome;
+		padding: 5px;
+		border-radius: 8px;
+		padding-top:19%;
+	}
+	.box_text{
+		font-size: 18px;
+	}
+
+		
+}
+
+@media(min-width:568px){
+	.nav_header{
+		font-weight: bold;
+		font-size:25px;
+		font-family: FontAwesome;
+	}
+	.header_main{
+	font-weight: bold;
+	font-size:40px;
+	}
+	.header_main_alt{
+	font-weight: bold;
+	font-size:30px;
+	font-family: FontAwesome;
+	}
+	.carousel_font{
+		font-size:20px;
+	}
+	.overlay_text{
+	 position: absolute;
+	 top: 20%;
+	 left: 70%;
+	 transform: translate(-50%, -50%);
+	 font-size: 30px;
+	 color:white
+	 width: 100%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_2{
+	 position: absolute;
+	 top: 40%;
+	 left: 70%;
+	 transform: translate(-50%, -50%);
+	 font-size: 20px;
+	 color:white;
+	 width: 100%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_contact_1{
+	 position: absolute;
+	 top: 55%;
+	 left: 65%;
+	 transform: translate(-50%, -50%);
+	 font-size: 20px;
+	 color:white;
+	 width: 3%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_contact_2{
+	 position: absolute;
+	 top: 55%;
+	 left: 70%;
+	 transform: translate(-50%, -50%);
+	 font-size: 20px;
+	 color:white;
+	 width: 3%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_contact_3{
+	 position: absolute;
+	 top: 55%;
+	 left: 75%;
+	 transform: translate(-50%, -50%);
+	 font-size: 20px;
+	 color:white;
+	 width: 3%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.shadow{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	
+	height: 10rem;
+	padding: 10px;
+	width: 18rem;
+	width: 100%;
+	margin-left: 0;
+	margin-top: 10px;
+	padding-top:12%;
+	}
+	.box_text{
+		font-size: 25px;
+	}
+}
+
+@media(min-width: 850px){
+	.nav_header{
+		font-weight: bold;
+		font-size:28px;
+		font-family: FontAwesome;
+		
+	}
+	.header_main{
+	font-weight: bold;
+	font-size:50px;
+	}
+	.header_main_alt{
+	font-weight: bold;
+	font-size:30px;
+	font-family: FontAwesome;
+	}
+	.carousel_font{
+		font-size:25px;
+	}
+	.display_lg{
+		display: inherit;
+	}
+	.nodisplay_lg{
+		display: none
+	}
+	.overlay_text{
+	 position: absolute;
+	 top: 25%;
+	 left: 70%;
+	 transform: translate(-50%, -50%);
+	 font-size: 50px;
+	 color:white;
+	 width: 100%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_2{
+	 position: absolute;
+	 top: 38%;
+	 left: 70%;
+	 transform: translate(-50%, -50%);
+	 font-size: 25px;
+	 color:white;
+	 width: 100%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_contact_1{
+	 position: absolute;
+	 top: 50%;
+	 left: 65%;
+	 transform: translate(-50%, -50%);
+	 font-size: 30px;
+	 color:white;
+	 width: 3%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_contact_2{
+	 position: absolute;
+	 top: 50%;
+	 left: 70%;
+	 transform: translate(-50%, -50%);
+	 font-size: 30px;
+	 color:white;
+	 width: 3%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.overlay_text_contact_3{
+	 position: absolute;
+	 top: 50%;
+	 left: 75%;
+	 transform: translate(-50%, -50%);
+	 font-size: 30px;
+	 color:white;
+	 width: 3%;
+	 font-weight: bold;
+	 font-family: FontAwesome;
+	}
+	.shadow{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	height: 10rem;
+	width: 16rem;
+	width: 100%;
+	margin-left: 0;
+	margin-top: 0px;
+	padding-top:16%;
+	}
+
+	.box_text{
+		font-size: 28px;
+	}
+	
+}
