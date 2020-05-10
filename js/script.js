@@ -105,7 +105,7 @@ $(document).ready(function(){
 
     $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 180) {
+        if ($(this).scrollTop() > 200) {
         $("#proj_1").slideDown(1000);
         }
       });
@@ -113,7 +113,7 @@ $(document).ready(function(){
 
     $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 600) {
+        if ($(this).scrollTop() > 750) {
         $("#proj_2").slideDown(1000);
         }
       });
