@@ -119,15 +119,4 @@ $(document).ready(function(){
       });
     });
 
-    $("#messageNav").click(function(){
-        $("#message").slideDown(1000);
-    });
-
-    $(function () {
-      $(document).scroll(function () {
-        if ($(this).scrollTop() > 1000) {
-        $("#message").slideDown(1000);
-        }
-      });
-    });
 });
