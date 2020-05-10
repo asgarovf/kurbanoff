@@ -113,6 +113,14 @@ $(document).ready(function(){
 
     $(function () {
       $(document).scroll(function () {
+        if ($(this).scrollTop() > 500) {
+        $("#proj_2_sm").slideDown(1000);
+        }
+      });
+    });
+
+    $(function () {
+      $(document).scroll(function () {
         if ($(this).scrollTop() > 700) {
         $("#proj_2").slideDown(1000);
         }
