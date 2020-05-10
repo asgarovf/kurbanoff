@@ -105,7 +105,7 @@ $(document).ready(function(){
 
     $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 200) {
+        if ($(this).scrollTop() > 300) {
         $("#proj_1").slideDown(1000);
         }
       });
@@ -113,7 +113,7 @@ $(document).ready(function(){
 
     $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 750) {
+        if ($(this).scrollTop() > 700) {
         $("#proj_2").slideDown(1000);
         }
       });
@@ -125,7 +125,7 @@ $(document).ready(function(){
 
     $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 1100) {
+        if ($(this).scrollTop() > 1000) {
         $("#message").slideDown(1000);
         }
       });
