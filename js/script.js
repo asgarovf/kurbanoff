@@ -106,23 +106,15 @@ $(document).ready(function(){
     $(function () {
       $(document).scroll(function () {
         if ($(this).scrollTop() > 300) {
-        $("#proj_1").slideDown(1000);
+        $("#proj_1").slideDown(2000);
         }
       });
     });
 
     $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 500) {
-        $("#proj_2_sm").slideDown(1000);
-        }
-      });
-    });
-
-    $(function () {
-      $(document).scroll(function () {
-        if ($(this).scrollTop() > 700) {
-        $("#proj_2").slideDown(1000);
+        if ($(this).scrollTop() > 400) {
+        $("#proj_2").slideDown(2000);
         }
       });
     });
