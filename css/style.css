@@ -10,25 +10,33 @@ body{
 #all{
 	background-color: var(--main_background_color);
 	display: none;
+	
 }
 
 
 form{
 	color:white;
-	font-family: FontAwesome;
+	
 }
 
+input{
+	width: 15rem;
+}
+textarea{
+	width: 15rem;
+	padding-bottom: 10rem;
+}
 
 header{
-	font-family: Oswald;
+	font-family: 'Balsamiq Sans';
 	font-size:18px;
-	font-weight: bold;
 }
 
 footer{
 	background-color: #1e1e1f;
 
 }
+
 
 .nav_background{
 	background-color: none;
@@ -63,8 +71,17 @@ a{
 	color:white;
 }
 
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+
 p{
 	color:white;
+}
+
+.nav_collapse {
+    height: 100vh;
 }
 
 
@@ -166,8 +183,8 @@ figure div:nth-child(8):after{animation-delay:-4;}
 	}
 
 	.button_projects{
-		background-color: white;
-		font-size:20px;
+		color:white;
+		font-size:14px;
 		font-weight: bold;
 		font-family: FontAwesome;
 		border-color:white;
@@ -187,6 +204,8 @@ figure div:nth-child(8):after{animation-delay:-4;}
 	border:1px solid var(--main_background_color);
 	padding: 5px;
 	border-radius:5px;
+	padding-top: 10%;
+	height: 10rem;
 }
 
 
@@ -263,8 +282,9 @@ figure div:nth-child(8):after{animation-delay:-4;}
 		color:white;
 	}
 	.button_projects{
-		background-color: white;
-		font-size:20px;
+		background-color: var(--main_background_color)
+		color:white;
+		font-size:16px;
 		font-weight: bold;
 		font-family: FontAwesome;
 		border-color:white;
@@ -278,6 +298,8 @@ figure div:nth-child(8):after{animation-delay:-4;}
 	border:1px solid var(--main_background_color);
 	padding: 5px;
 	border-radius:5px;
+	padding-top: 10%;
+	height: 10rem;
 }
 
 }
@@ -351,8 +373,8 @@ figure div:nth-child(8):after{animation-delay:-4;}
 		color:white;
 	}
 	.button_projects{
-		background-color: white;
-		font-size:20px;
+		color:white;
+		font-size:16px;
 		font-weight: bold;
 		font-family: FontAwesome;
 		border-color:white;
@@ -366,6 +388,8 @@ figure div:nth-child(8):after{animation-delay:-4;}
 	border:1px solid var(--main_background_color);
 	padding: 5px;
 	border-radius:5px;
+	padding-top: 10%;
+	height: 10rem;
 }
 
 }

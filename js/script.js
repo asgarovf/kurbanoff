@@ -91,7 +91,13 @@ $(window).on("load",function(){
 
 $(document).ready(function(){
     
+    $("#connectButton").click(function(){
+        $("#ruslanContact").slideDown(1000);
+    });
 
+    $("#connectButtonSm").click(function(){
+        $("#ruslanContactSm").slideDown(1000);
+    });
     
 
     $("#box_1").mouseover(function(){
@@ -158,6 +164,51 @@ $(document).ready(function(){
       $(document).scroll(function () {
         if ($(this).scrollTop() > 500) {
         $("#proj_2").fadeIn(2000);
+        }
+      });
+    });
+
+     $(function () {
+      $(document).scroll(function () {
+        if ($(this).scrollTop() > 1100) {
+        $("#box_1").slideDown(1000);
+        }
+        else{
+        $("#box_1").slideUp(1000);
+        }
+      });
+    });
+
+     $(function () {
+      $(document).scroll(function () {
+        if ($(this).scrollTop() > 1100) {
+        $("#box_2").slideDown(1000);
+        }
+        else{
+        $("#box_2").slideUp(1000);
+        }
+      });
+    });
+
+     $(function () {
+      $(document).scroll(function () {
+        if ($(this).scrollTop() > 1100) {
+        $("#box_3").slideDown(1000);
+        }
+        else{
+        $("#box_3").slideUp(1000);
+        }
+      });
+    });
+
+
+     $(function () {
+      $(document).scroll(function () {
+        if ($(this).scrollTop() > 1100) {
+        $("#box_4").slideDown(1000);
+        }
+        else{
+        $("#box_4").slideUp(1000);
         }
       });
     });
