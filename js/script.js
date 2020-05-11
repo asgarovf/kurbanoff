@@ -47,6 +47,42 @@ $('#owl-2-2').owlCarousel({
     }
 })
 
+
+$('#owl-2-3').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:false,
+    items:3,
+    autoplay:true,
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            items:2,
+        },
+        1000:{
+            items:3,
+        }
+    }
+})
+
+$('#owl-2-4').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:false,
+    items:3,
+    autoplay:true,
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            items:2,
+        },
+        1000:{
+            items:3,
+        }
+    }
+})
+
+
 $(window).on("load",function(){
      $("#loader").fadeOut(1000);
      $("#all").fadeIn(800);
