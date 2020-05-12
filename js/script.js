@@ -1,3 +1,9 @@
+
+
+
+
+
+
 $('#owl-1').owlCarousel({
     loop:false,
     margin:0,
@@ -29,6 +35,59 @@ $('#owl-2').owlCarousel({
         }
     }
 })
+
+
+$('#owl-2-big').owlCarousel({
+    loop:true,
+    margin:15,
+    nav:false,
+    items:2,
+    autoplay:true,
+    autoplayTimeout:6000,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:2,
+        }
+    }
+})
+
+
+$('#owl-2-projects').owlCarousel({
+    loop:false,
+    margin:5,
+    nav:false,
+    items:1,
+})
+
+$('#owl-2-projects-2').owlCarousel({
+    loop:false,
+    margin:5,
+    nav:false,
+    items:1,
+})
+
+$('#owl-2-projects-3').owlCarousel({
+    loop:false,
+    margin:5,
+    nav:false,
+    items:1,
+})
+
+
+$('#owl-2-projects-4').owlCarousel({
+    loop:false,
+    margin:5,
+    nav:false,
+    items:1,
+})
+
+
 
 $('#owl-2-2').owlCarousel({
     loop:true,
@@ -90,7 +149,26 @@ $(window).on("load",function(){
 
 
 $(document).ready(function(){
-    
+    $("#project_header_1").fadeIn("slow");
+    $("#project_header_2").fadeIn("slow");
+
+    $(function () {
+      $(document).scroll(function () {
+        if ($(this).scrollTop() > 270) {
+        $("#project_header_3").fadeIn("slow");
+        }
+      });
+    });
+
+    $(function () {
+      $(document).scroll(function () {
+        if ($(this).scrollTop() > 400) {
+        $("#project_header_4").fadeIn("slow");
+        }
+      });
+    });
+
+
     $("#connectButton").click(function(){
         $("#ruslanContact").slideDown(1000);
     });
@@ -212,6 +290,5 @@ $(document).ready(function(){
         }
       });
     });
-
 
 });
