@@ -152,6 +152,13 @@ $(document).ready(function(){
     $("#project_header_1").fadeIn("slow");
     $("#project_header_2").fadeIn("slow");
 
+
+    $("#servicesButton").on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+    });
+    
+
+
     $(function () {
       $(document).scroll(function () {
         if ($(this).scrollTop() > 270) {
