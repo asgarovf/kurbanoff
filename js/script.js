@@ -255,7 +255,7 @@ $(document).ready(function(){
 
      $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 1100) {
+        if ($(this).scrollTop() > 1600) {
         $("#box_1").slideDown(1000);
         }
         else{
@@ -266,7 +266,7 @@ $(document).ready(function(){
 
      $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 1100) {
+        if ($(this).scrollTop() > 1600) {
         $("#box_2").slideDown(1000);
         }
         else{
@@ -277,7 +277,7 @@ $(document).ready(function(){
 
      $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 1100) {
+        if ($(this).scrollTop() > 1600) {
         $("#box_3").slideDown(1000);
         }
         else{
@@ -289,7 +289,7 @@ $(document).ready(function(){
 
      $(function () {
       $(document).scroll(function () {
-        if ($(this).scrollTop() > 1100) {
+        if ($(this).scrollTop() > 1600) {
         $("#box_4").slideDown(1000);
         }
         else{
